@@ -1,0 +1,42 @@
+.main-hero{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-inline:auto;
+    gap: 1em;
+
+}
+.model{
+    height: 500px;
+}
+.secondary{
+    border-radius: .8rem;
+    background-color: green;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+    width: 200px;
+    border: none;
+    padding: .5rem .8rem;
+    cursor: pointer;
+
+}
+.secondary:hover{
+    background-color: brown;
+    color: black;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+@media (max-width:750px) {
+    .model{
+    height: 200px;
+}
+    .secondary{
+        width: 100px;
+    }
+}
