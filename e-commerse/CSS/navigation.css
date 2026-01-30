@@ -64,8 +64,10 @@ nav a{
     
 }
 
-.logo, img{
-    height: 5.0rem;
+.logo,img{
+    height: 8.0rem;
+    
+    
    
 }
 
@@ -194,9 +196,7 @@ svg:hover{
 
     .open-sidebar, .close-sidebar{
         display: block;
-        
-        
-        
+
     }
     
    #sidebar-active:checked ~ .links-container{

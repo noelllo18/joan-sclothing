@@ -12,6 +12,8 @@
     overflow-x: hidden;
     position: relative;
     gap: 1em;
+    cursor: pointer;
+    
 }
 .carousel::-webkit-scrollbar{
     display: none;
@@ -22,7 +24,7 @@
     justify-content: center;
     width: 100%;
     gap: 5.0rem;
-    animation: spin 5s linear infinite;
+    animation: spin 10s linear infinite;
     padding-right: 1em;
     
 
@@ -46,6 +48,7 @@
     top: 0;
     right: 0;
     z-index: 9;
+    
 }
 .card{
     display: inline-block;
