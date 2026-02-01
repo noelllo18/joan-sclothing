@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -71,4 +72,76 @@
    100%{
     transform: translateX(-100%);
    }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel{
+    margin: 1em auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+    gap: 1em;
+}
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 5.0rem;
+    animation: spin 5s linear infinite;
+    padding-right: 1em;
+    
+
+}
+.carousel::before{
+    content: "";
+    background: linear-gradient(to left,rgba(255,255,255,0),white);
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+.carousel::after{
+    content: "";
+    background: linear-gradient(to right,rgba(255,255,255,0),white);
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+}
+.card{
+    display: inline-block;
+    flex: 0 0 5em;
+    
+    width: 100%;
+    
+}
+.card img{
+    height: 5.0rem;
+    background: transparent;
+}
+.group:hover{
+    animation-play-state: paused;
+}
+@keyframes spin {
+   0%{
+    transform: translateX(0);
+   }
+   100%{
+    transform: translateX(-100%);
+   }
+>>>>>>> 8db53a06c068d67748032269e68174c407e862ea
 }
