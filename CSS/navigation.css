@@ -18,7 +18,7 @@ nav{
     font-weight: 500;
     padding: 1.8rem 1.5rem;
     position: relative;
-    border-bottom: 2px solid rgb(135, 112, 112);
+    border-bottom: 1px solid rgb(135, 112, 112);
     top: 0;
     left: 0;
     z-index: 99;
@@ -147,6 +147,52 @@ svg:hover{
     animation: glow 1.5s infinite;
     
 }
+.footer{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 4.0rem;
+    border-top: 1px solid #827777;
+    padding: 1.0rem 1.5rem;
+
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 @keyframes glow {
     0%{
         transform: scale(1);
@@ -163,6 +209,7 @@ svg:hover{
     }
 }
 @media(max-width: 550px){
+    
     .icons{
         display: none;
     }
@@ -224,6 +271,8 @@ svg:hover{
    .icon{
     display: none;
    }
- 
+   .footer{
+        display: flex;
+   }
 
 }
