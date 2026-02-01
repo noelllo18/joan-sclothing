@@ -23,12 +23,13 @@ nav{
     top: 0;
     left: 0;
     z-index: 99;
+    height: 7.0rem;
 
 }
 .nav-links{
     display: flex;
     list-style: none;
-    gap: 1.0rem;
+    gap: 2.0rem;
     
 }
 nav a{
@@ -66,7 +67,8 @@ nav a{
 }
 
 .logo,img{
-    height: 8.0rem;
+    height: 6.0rem;
+    width: 10rem;
     
     
    
@@ -111,8 +113,8 @@ svg:hover{
 }
 .icons{
     display: flex;
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 3.5rem;
+    width: 3.5rem;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
@@ -125,8 +127,8 @@ svg:hover{
 }
 .icons::before{
     content: "";
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     opacity: 60%;
     background-color: rgb(32, 228, 32);
@@ -137,8 +139,8 @@ svg:hover{
 }
 .icons::after{
     content: "";
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     backdrop-filter: blur(15px);
     opacity: 50%;
     border-radius: 50%;
