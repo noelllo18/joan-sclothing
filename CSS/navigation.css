@@ -8,6 +8,7 @@ html{
 }
 body{
     min-height: 100vh;
+    overflow-x: hidden;
     
 }
 nav{
@@ -288,7 +289,9 @@ svg:hover{
         display: flex;
         position: sticky;
         bottom: 0;
-        
+        left: 0;
+        width: 90;
+        margin-inline:auto;
         padding: 2.0rem;
         
 
