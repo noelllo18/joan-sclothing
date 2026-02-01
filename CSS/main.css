@@ -1,7 +1,8 @@
 .main-hero{
     display:grid;
     grid-template-columns: repeat(2,1fr);
-   
+    gap: 20px;
+    
     /* background-color: green; */
     
 }
@@ -86,6 +87,8 @@
     gap: 30px;
     font-size: 1.6rem;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 1px;
     align-items: center;
     padding: 5.0rem;
     text-align: center;
