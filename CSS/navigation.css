@@ -172,9 +172,9 @@ svg:hover{
     justify-content: center;
     flex-direction: column;
     padding: 1.0rem;
-
+    
 }
-.menu{
+/* .menu{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -208,7 +208,7 @@ svg:hover{
     justify-content: center;
     flex-direction: column;
     padding: 1.0rem;
-}
+} */
 @keyframes glow {
     0%{
         transform: scale(1);
@@ -224,7 +224,7 @@ svg:hover{
         transform: scale(1);
     }
 }
-@media(max-width: 550px){
+@media(max-width: 750px){
     
     .icons{
         display: none;
@@ -292,8 +292,8 @@ svg:hover{
         position: sticky;
         bottom: 0;
         left: 0;
-        width: 90;
-        margin-inline:auto;
+        
+        
         overflow-x: hidden;
         overflow-y: hidden;
         
