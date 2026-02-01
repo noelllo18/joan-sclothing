@@ -155,8 +155,10 @@ svg:hover{
     display: none;
     align-items: center;
     justify-content: center;
-    gap: 2.0rem;
+    gap: 1.5rem;
     border-top: 1px solid #827777;
+    overflow-x: hidden;
+    
     /* padding: 1.5rem; */
  
 
@@ -292,7 +294,8 @@ svg:hover{
         left: 0;
         width: 90;
         margin-inline:auto;
-        padding: 2.0rem;
+        overflow-x: hidden;
+        overflow-y: hidden;
         
 
    }
