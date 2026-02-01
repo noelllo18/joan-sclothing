@@ -154,16 +154,21 @@ svg:hover{
     display: none;
     align-items: center;
     justify-content: center;
-    gap: 4.0rem;
+    gap: 2.0rem;
     border-top: 1px solid #827777;
-    padding: 1.0rem 1.5rem;
+    /* padding: 1.5rem; */
+ 
 
+}
+.footer span{
+    margin-bottom: 1.0rem;
 }
 .home{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 1.0rem;
 
 }
 .menu{
@@ -171,30 +176,35 @@ svg:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 1.0rem;
 }
 .search{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 1.0rem;
 }
 .shop{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 1.0rem;
 }
 .cart{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 1.0rem;
 }
 .account{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 1.0rem;
 }
 @keyframes glow {
     0%{
@@ -276,6 +286,12 @@ svg:hover{
    }
    .footer{
         display: flex;
+        position: sticky;
+        bottom: 0;
+        
+        padding: 2.0rem;
+        
+
    }
 
 
