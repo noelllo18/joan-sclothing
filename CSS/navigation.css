@@ -156,6 +156,7 @@ svg:hover{
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
+    
     border-top: 1px solid #827777;
     overflow-x: hidden;
     
@@ -165,6 +166,15 @@ svg:hover{
 }
 .footer span{
     margin-bottom: 1.0rem;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.0rem;
+    width: 90%;
+    margin-inline: auto;
+    padding: 1.0rem;
 }
 .home{
     display: flex;
