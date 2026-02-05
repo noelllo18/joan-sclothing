@@ -156,32 +156,34 @@ svg:hover{
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
+    width: 100%;
     
     border-top: 1px solid #827777;
-    overflow-x: hidden;
+    
+   
     
     /* padding: 1.5rem; */
  
 
 }
 .footer span{
-    margin-bottom: 1.0rem;
+    margin-bottom: 0.5rem;
 }
 .footer-container{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2.0rem;
-    width: 90%;
-    margin-inline: auto;
-    padding: 1.0rem;
+    width: 100%;
+    padding:0.5rem;
+    
 }
 .home{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 1.0rem;
+    padding:0.5rem;
     
 }
 .menu{
@@ -189,35 +191,35 @@ svg:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 1.0rem;
+    padding:0.5rem;
 }
 .search{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 1.0rem;
+     padding: .5rem;
 }
 .shop{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 1.0rem;
+     padding: .5rem;
 }
 .cart{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 1.0rem;
+     padding: .5rem;
 }
 .account{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 1.0rem;
+    padding: .5rem;
 }
 @keyframes glow {
     0%{
@@ -299,16 +301,28 @@ svg:hover{
    }
    .footer{
         display: flex;
-        position: sticky;
-        bottom: 0;
-        left: 0;
-        
-        
+       
         overflow-x: hidden;
         overflow-y: hidden;
         
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: auto;
+        
+        
 
    }
-
-
+   .footer-container{
+        width: 100%;
+        
+   }
+  
+   .footer-container svg span{
+        height: 1.0rem;
+        width: 1.5rem;
+        font-size: 1.0rem;
+   }
 }
